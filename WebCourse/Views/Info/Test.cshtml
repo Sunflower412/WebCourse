@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+     
+        body {
+            padding: 20px;
+        }
+
+        .question-block {
+            background-color: ghostwhite; /* Белый фон для блоков вопросов */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        #message {
+            color: white; /* Цвет текста сообщения белый */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" style="color: ghostwhite">Тест по АСУ СС</h1>
+        <form id="quizForm">
+            <div class="mb-3 question-block">
+                <label>1. Что такое АСУ СС?</label><br>
+                <input type="radio" name="question1" value="a"> a) Система, которая управляет движением поездов на сортировочной станции.<br>
+                <input type="radio" name="question1" value="b"> b) Система, которая обеспечивает безопасность движения поездов.<br>
+                <input type="radio" name="question1" value="c"> c) Система, которая позволяет оптимизировать работу сортировочной станции и повысить её эффективность.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>2. Какова основная цель АСУ СС?</label><br>
+                <input type="radio" name="question2" value="a"> a) Сокращение затрат на труд<br>
+                <input type="radio" name="question2" value="b"> b) Увеличение пропускной способности<br>
+                <input type="radio" name="question2" value="c"> c) Увеличение безопасности и улучшение точности<br>
+                <input type="radio" name="question2" value="d"> d) Оптимизация эффективности и результативности процесса сортировки<br>
+            </div>
+             <div class="mb-3 question-block">
+                <label>3. Что включает в себя архитектура АСУ?</label><br>
+                <input type="radio" name="question3" value="a"> a) Автоматизированные рабочие места<br>
+                <input type="radio" name="question3" value="b"> b) Подготовка специалистов<br>
+                <input type="radio" name="question3" value="c"> c) Распределение труда<br>
+                
+            </div>
+            <div class="mb-3 question-block">
+                <label>4. Кому АСУ СС предоставляет данные?</label><br>
+                <input type="radio" name="question4" value="a"> a) Инженерам<br>
+                <input type="radio" name="question4" value="b"> b) Руководителям станции<br>
+                <input type="radio" name="question4" value="c"> c) Машинистам<br>
+
+            </div>
+            <div class="mb-3 question-block">
+                <label>5. Каково значение подсистемы организации грузовой и коммерческой работы?</label><br>
+                <input type="radio" name="question5" value="a"> a) Обеспечение автоматизации станционных процессов<br>
+                <input type="radio" name="question5" value="b"> b) Предоставление информации о грузах<br>
+                <input type="radio" name="question5" value="c"> c) Обеспечение безопасности технических средств<br>
+
+            </div>
+            <div class="mb-3 question-block">
+                <label>6. Каковы преимущества автоматизации?</label><br>
+                <input type="radio" name="question6" value="a"> a) Увеличение производительности и эффективности.<br>
+                <input type="radio" name="question6" value="b"> b) Улучшение точности и уменьшение ошибок.<br>
+                <input type="radio" name="question2" value="c"> c) Экономия затрат на труд и ресурсов.<br>
+                <input type="radio" name="question6" value="d"> d) Все ответы.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>7. История развития АСУ СС началась в...</label><br>
+                <input type="radio" name="question7" value="a"> a) конце 20 века<br>
+                <input type="radio" name="question7" value="b"> b) конце 19 века<br>
+                <input type="radio" name="question7" value="c"> c) середине 20 века<br>
+                <input type="radio" name="question7" value="d"> d) начале 21 века<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>8. На что опирались АСУ СС в 50-х годах?</label><br>
+                <input type="radio" name="question8" value="a"> a) Релейные схемы<br>
+                <input type="radio" name="question8" value="b"> b) Квантовые компьютеры<br>
+                <input type="radio" name="question8" value="c"> c) Телефонные устройства<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>9. Для чего нужен ТГНЛ?</label><br>
+                <input type="radio" name="question9" value="a"> a) Для регистрации и контроля перемещения грузов через границы различных государств.<br>
+                <input type="radio" name="question9" value="b"> b) Для регистрации и перевозки пассажиров через границы различных государств<br>
+                <input type="radio" name="question9" value="c"> c) Для контроля перемещения грузов в пределах одного региона<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>10. На чем построена распределённая база данных?</label><br>
+                <input type="radio" name="question10" value="a"> a) На основе самолетной модели.<br>
+                <input type="radio" name="question10" value="b"> b) На основе вагонной модели.<br>
+                <input type="radio" name="question10" value="c"> c) На основе автомобильной модели.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>11. Увеличение пропускной способности - это</label><br>
+                <input type="radio" name="question11" value="a"> a) Минимизация ошибок в классификации вагонов.<br>
+                <input type="radio" name="question11" value="b"> b) Максимизация количества отсортированных поездов и вагонов.<br>
+                <input type="radio" name="question11" value="c"> c) Максимизация исправления ошибок в маршрутизации поездов.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>12. В чем суть увеличения безопасности?</label><br>
+                <input type="radio" name="question12" value="a"> a) Реализация определенных протоколов.<br>
+                <input type="radio" name="question12" value="b"> b) Автоматизация задач.<br>
+                <input type="radio" name="question12" value="c"> c) Сортировка поездов.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>13. Какие преимущества даёт внедрение АСУ СС?</label><br>
+                <input type="radio" name="question13" value="a"> a) Повышение безопасности движения поездов.<br>
+                <input type="radio" name="question13" value="b"> b) Сокращение времени на обработку поездов.<br>
+                <input type="radio" name="question13" value="c"> c) Снижение вероятности ошибок персонала.<br>
+                <input type="radio" name="question13" value="d"> d) Всё вышеперечисленное.<br>
+            </div>
+            <div class="mb-3 question-block">
+                <label>14. Как развилась АСУ СС в 21 веке?</label><br>
+                <input type="radio" name="question14" value="a"> a) Использование компьютеров для управления сортировочными станциями.<br>
+                <input type="radio" name="question14" value="b"> b) Использование электромеханических систем и релейных схем.<br>
+                <input type="radio" name="question14" value="c"> c) Использование искусственного интеллекта.<br>
+            </div>
+
+            <!-- Добавьте другие вопросы аналогичным образом -->
+            <button type="button" class="btn btn-primary" onclick="submitQuiz()">
+                Завершить тест
+            </button>
+        </form>
+
+        <div id="result" class="mt-4 d-none">
+            <h2 style="color: ghostwhite"><span id="score"></span></h2>
+            <p id="message"></p> <!-- Сообщение о результате -->
+            <button class="btn btn-secondary" onclick="restartQuiz()">Пройти заново</button>
+        </div>
+    </div>
+
+    <script>
+        function submitQuiz() {
+            let score = 0;
+            const totalQuestions = 14; // Общее количество вопросов
+            const answers = {
+                question1: 'c',
+                question2: 'd',
+                question3: 'a',
+                question4: 'b',
+                question5: 'a',
+                question6: 'd',
+                question7: 'c',
+                question8: 'a',
+                question9: 'a',
+                question10: 'b',
+                question11: 'b',
+                question12: 'a',
+                question13: 'd',
+                question14: 'c' // Правильные ответы
+            };
+
+            for (const question in answers) {
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (userAnswer && userAnswer.value === answers[question]) {
+                    score++;
+                }
+            }
+
+           
+            // Вычисление процента правильных ответов
+            let percentage = (score / totalQuestions) * 100;
+
+            // Формируем сообщение о результате
+            let message = `Ваш результат: ${score} из ${totalQuestions} баллов. `;
+            if (percentage >= 70) {
+                message += "Поздравляем! Курс успешно завершен.";
+            } else {
+                message += "Тест не сдан! Внимательно ознакомьтесь с курсом, затем повторите попытку.";
+            }
+
+            //document.getElementById('score').innerText = `Ваш результат: ${score}`;
+            document.getElementById('message').innerText = message; // Выводим сообщение о результате
+
+            document.getElementById('result').classList.remove('d-none');
+            document.getElementById('quizForm').classList.add('d-none'); // Скрыть форму
+        }
+
+        function restartQuiz() {
+            document.getElementById('quizForm').reset(); // Сброс формы
+            document.getElementById('result').classList.add('d-none'); // Скрыть результат
+            document.getElementById('quizForm').classList.remove('d-none'); // Показать форму
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
